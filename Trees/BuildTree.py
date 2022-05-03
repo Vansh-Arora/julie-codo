@@ -5,3 +5,4 @@ class Node:
         self.data = data
 
 def build():
+    data = int(input())
