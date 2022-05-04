@@ -6,3 +6,4 @@ class Node:
 
 def build():
     data = int(input())
+    if data == -1:
