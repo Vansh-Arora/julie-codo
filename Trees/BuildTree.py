@@ -8,3 +8,4 @@ def build():
     data = int(input())
     if data == -1:
         return None
+    nn = Node(data)
