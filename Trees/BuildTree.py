@@ -9,3 +9,4 @@ def build():
     if data == -1:
         return None
     nn = Node(data)
+    nn.left = build()
