@@ -11,3 +11,4 @@ def build():
     nn = Node(data)
     nn.left = build()
     nn.right = build()
+    return nn
