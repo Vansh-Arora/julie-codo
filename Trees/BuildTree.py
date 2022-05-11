@@ -14,3 +14,4 @@ def build():
     return nn
 
 root = build()
+print(root.left.data,root.data,root.right.data)
