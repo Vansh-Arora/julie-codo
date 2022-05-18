@@ -4,3 +4,4 @@ def inO(root):
         return
     inO(root.left)
     print(root.data)
+    inO(root.right)
