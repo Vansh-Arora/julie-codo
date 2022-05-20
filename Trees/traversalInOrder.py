@@ -7,3 +7,4 @@ def inO(root):
     inO(root.right)
 
 # Iterative InOrder
+def InO(root):
