@@ -10,3 +10,4 @@ def inO(root):
 def InO(root):
     stck = []
     ans = []
+    first = 1
