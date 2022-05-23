@@ -11,3 +11,4 @@ def InO(root):
     stck = []
     ans = []
     first = 1
+    curr = root
