@@ -12,3 +12,4 @@ def InO(root):
     ans = []
     first = 1
     curr = root
+    while curr or first or len(stck) > 0:
