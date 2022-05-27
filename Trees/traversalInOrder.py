@@ -15,3 +15,4 @@ def InO(root):
     while curr or first or len(stck) > 0:
         first = 0
         while curr:
+            stck.append(curr)
