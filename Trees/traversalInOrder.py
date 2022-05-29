@@ -17,3 +17,4 @@ def InO(root):
         while curr:
             stck.append(curr)
             curr = curr.left
+        curr = stck.pop()
