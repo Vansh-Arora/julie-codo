@@ -18,3 +18,4 @@ def InO(root):
             stck.append(curr)
             curr = curr.left
         curr = stck.pop()
+        ans.append(curr.data)
