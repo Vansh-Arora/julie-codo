@@ -19,3 +19,4 @@ def InO(root):
             curr = curr.left
         curr = stck.pop()
         ans.append(curr.data)
+        curr = curr.right
