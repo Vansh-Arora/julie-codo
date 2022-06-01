@@ -1,3 +1,4 @@
+# Structure of a node in a Tree
 class Node:
     def __init__(self,data):
         self.left = None
