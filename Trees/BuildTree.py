@@ -5,6 +5,7 @@ class Node:
         self.right = None
         self.data = data
 
+# Function to Build a tree from user input
 def build():
     data = int(input())
     if data == -1:
