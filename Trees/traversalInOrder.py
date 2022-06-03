@@ -1,4 +1,4 @@
-#Inorder Traversal: 
+#Inorder Traversal: Left Root Right
 
 # Recursive InOrder
 def inO(root):
