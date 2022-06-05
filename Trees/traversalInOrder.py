@@ -9,6 +9,8 @@ def inO(root):
     inO(root.right)
 
 # Iterative InOrder
+# In inOrder traversal first we reach the left most node
+
 def InO(root):
     stck = []
     ans = []
