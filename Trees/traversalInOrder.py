@@ -9,8 +9,8 @@ def inO(root):
     inO(root.right)
 
 # Iterative InOrder
-# In inOrder traversal first we reach the left most node
-
+## In inOrder traversal first we reach the left most node
+## and keep these in a stack, then pop elements and print them and move to right
 def InO(root):
     stck = []
     ans = []
