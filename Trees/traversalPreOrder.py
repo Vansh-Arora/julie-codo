@@ -1,0 +1,3 @@
+# Recursive
+def preOrder(root):
+    
