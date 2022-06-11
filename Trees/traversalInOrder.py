@@ -8,3 +8,4 @@ def inO(root):
 
 # Iterative InOrder
 def InO(root):
+    stck = []
