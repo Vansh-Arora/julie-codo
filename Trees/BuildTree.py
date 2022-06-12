@@ -15,6 +15,3 @@ def build():
     nn.left = build()
     nn.right = build()
     return nn
-
-root = build()
-print(root.left.data,root.data,root.right.data)
