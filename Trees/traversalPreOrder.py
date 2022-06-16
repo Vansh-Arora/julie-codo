@@ -7,7 +7,7 @@ def preOrder(root):
     preOrder(root.left)
     preOrder(root.right)
 
-# Iterative
+# Iterative Pre Order
 def PreOrder(root):
     stck = []
     ans = []
