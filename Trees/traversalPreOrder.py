@@ -12,9 +12,7 @@ def PreOrder(root):
     stck = []
     ans = []
     curr = root
-    first = 1
-    while curr or first or len(stck) > 0:
-        first = 0
+    while curr or len(stck) > 0:
         while curr:
             ans.append(curr.data)
             stck.append(curr)
