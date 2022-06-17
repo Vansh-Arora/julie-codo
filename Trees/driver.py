@@ -16,19 +16,24 @@ def build():
     nn.right = build()
     return nn
 
-# Iterative Pre Order
-def PreOrder(root):
-    stck = []
+def PostOrder(root):
+    s1 = [root]
+    s2 = []
     ans = []
-    curr = root
-    while curr or len(stck) > 0:
-        while curr:
-            ans.append(curr.data)
-            stck.append(curr)
-            curr = curr.left
-        curr = stck.pop()
-        curr = curr.right
+    while s1:
+        curr = s1.pop()
+        s2.append(curr)
+
+        if curr.left:
+            s1.append(curr.left)
+        if curr.right:
+            s1.append(curr.right)
+    
+    while s2:
+        curr = s2.pop()
+        ans.append(curr.data)
     return ans
 
+
 root = build()
-print(PreOrder(root))
+print(PostOrder(root))
