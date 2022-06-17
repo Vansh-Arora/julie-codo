@@ -14,10 +14,8 @@ def inO(root):
 def InO(root):
     stck = []
     ans = []
-    first = 1
     curr = root
-    while curr or first or len(stck) > 0:
-        first = 0
+    while curr or len(stck) > 0:
         while curr:
             stck.append(curr)
             curr = curr.left
